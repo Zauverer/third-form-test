@@ -4,94 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second Form</title>
+    <title>Third Form</title>
 </head>
 <style>
-    div{width: 350px;}
+    div{width: 400px;}
 </style>
 
 <body>
     <div>
-        <h1>Prueba de fomulario</h1>
         <form>
-            <label for="">Name:
-                <input>
-            </label>
-            <br>
-            <label for="">Age:
-                <input>
-            </label>
-            <br>
-            <label for="">Password:
-                <input type="password">
-            </label>
-            
-            <hr>
-            <text>Sex:</text>
-            <br>
+            <fieldset>
+                <legend>Complete</legend>
+                <label for="">Pick a color:
+                    <input type="color">
+                </label>
+                <br>
+                <label for="" type="text">
+                    Name
+                    <input>
+                </label>
+                <br>
+                <label for="" type="text">
+                    Surname
+                    <input>
+                </label>
+                <br>
                 <label for="">
-                    <input type="radio">Male
+                    Phone
+                    <input type="tel">
+                </label>
+                <br>
+                <br>
+                <label for="">
+                    <input type="checkbox" name="languaje" value="sports">Languaje
                 </label>
                 <label for="">
-                    <input type="radio">Female
-                </label>
-            <br>
-            <text>Hobbies:</text>
-            <br>
-                <label for="">
-                    <input type="checkbox" name="hobbies" value="sports">Sports
+                    <input type="checkbox" name="maths" value="music">Maths
                 </label>
                 <label for="">
-                    <input type="checkbox" name="hobbies" value="music">Music
+                    <input type="checkbox" name="history" value="lecture">History
                 </label>
                 <label for="">
-                    <input type="checkbox" name="hobbies" value="lecture">Lecture
+                    <input type="checkbox" name="geography" value="lecture">Geography
                 </label>
-            <br>
-                <label for="">Origin:                
+                <br>
+                <label>
+                    Select a folder:
+                    <input type="file">
+                </label>
+                <label>
+                  
                     <br>
-                    <select name="origin">
-                        <option value="africa">Africa</option>
-                        <option value="asia">Asia</option>
-                        <option value="north america">North America</option>
-                        <option value="south america">South America</option>
-                        <option value="europe">Europe</option>
-                        <option value="africa">Africa</option>
-                        <option value="antartic">Antartic</option>
-                        <option value="australia">Australia</option>
-                    </select>
+                    <textarea cols="50" rows="5" placeholder="use this text box to write"></textarea>
                 </label>
-            <hr>
-            <label for="origin">
-                Where you would like to travel?
+                <label for="">
+                    <input type="radio">JPG
+                </label>
+                <label for="">
+                    <input type="radio">PNG
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Complete</legend>
+                <label for="">
+                    Name
+                    <input>
+                </label>
                 <br>
-                    <select name="origin" id="origin"multiple>
-                        <option value="africa">Africa</option>
-                        <option value="asia">Asia</option>
-                        <option value="north america">North America</option>
-                        <option value="south america">South America</option>
-                        <option value="europe">Europe</option>
-                        <option value="africa">Africa</option>
-                        <option value="antartic">Antartic</option>
-                        <option value="australia">Australia</option>
-                    </select>
-            </label>
-            <br>
-            <label>
-                Opinions:
+                <label for="">
+                    Surname
+                    <input>
+                </label>
                 <br>
-                <textarea rows="10" placeholder="write your opinion!"></textarea>
-            </label>
-
-        <hr>
-
-         <button>
-            Submit Query
-         </button>
-         <button>
-            Reset
-         </button>
+                <label for="">
+                    Address
+                    <input>
+                </label>
+                <br>
+                <label for="">
+                    Select a date
+                    <input type="date">
+                </label>
+                <br>
+                <select name="select" id="origin"multiple>
+                    <option value="africa">USB</option>
+                    <option value="asia">Paralelo</option>
+                    <option value="north america">USB</option>
+                </select>
+            </fieldset>
         </form>
+
+
     </div>
 </body>
 </html>
