@@ -4,27 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>first form</title>
+    <title>Second Form</title>
 </head>
+<style>
+    div{width: 350px;}
+</style>
+
 <body>
-    <h1>Primer Formulario</h1>
-    <form>
-        <label for="">
-            Nombre
+    <div>
+        <h1>Prueba de fomulario</h1>
+        <form>
+            <label for="">Name:
+                <input>
+            </label>
             <br>
-            <input>
-        </label>
-        <br>
-        <label for="">
-            Edad
+            <label for="">Age:
+                <input>
+            </label>
             <br>
-            <input>
-        </label>
-        <br>
-        <br>
-        <button>
-            Enviar datos
-        </button>
-    </form>
+            <label for="">Password:
+                <input type="password">
+            </label>
+            
+            <hr>
+            <text>Sex:</text>
+            <br>
+                <label for="">
+                    <input type="radio">Male
+                </label>
+                <label for="">
+                    <input type="radio">Female
+                </label>
+            <br>
+            <text>Hobbies:</text>
+            <br>
+                <label for="">
+                    <input type="checkbox" name="hobbies" value="sports">Sports
+                </label>
+                <label for="">
+                    <input type="checkbox" name="hobbies" value="music">Music
+                </label>
+                <label for="">
+                    <input type="checkbox" name="hobbies" value="lecture">Lecture
+                </label>
+            <br>
+                <label for="">Origin:                
+                    <br>
+                    <select name="origin">
+                        <option value="africa">Africa</option>
+                        <option value="asia">Asia</option>
+                        <option value="north america">North America</option>
+                        <option value="south america">South America</option>
+                        <option value="europe">Europe</option>
+                        <option value="africa">Africa</option>
+                        <option value="antartic">Antartic</option>
+                        <option value="australia">Australia</option>
+                    </select>
+                </label>
+            <hr>
+            <label for="origin">
+                Where you would like to travel?
+                <br>
+                    <select name="origin" id="origin"multiple>
+                        <option value="africa">Africa</option>
+                        <option value="asia">Asia</option>
+                        <option value="north america">North America</option>
+                        <option value="south america">South America</option>
+                        <option value="europe">Europe</option>
+                        <option value="africa">Africa</option>
+                        <option value="antartic">Antartic</option>
+                        <option value="australia">Australia</option>
+                    </select>
+            </label>
+            <br>
+            <label>
+                Opinions:
+                <br>
+                <textarea rows="10" placeholder="write your opinion!"></textarea>
+            </label>
+
+        <hr>
+
+         <button>
+            Submit Query
+         </button>
+         <button>
+            Reset
+         </button>
+        </form>
+    </div>
 </body>
 </html>
